@@ -108,7 +108,6 @@ config = dict(
 
 
 def run_sync(func, *args, **kwargs):
-
     """Run a non-async function in a new thread and return an awaitable"""
 
     # Returning a coro
