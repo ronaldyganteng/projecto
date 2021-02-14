@@ -134,13 +134,13 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`WeebProject` is running on`\n"
-        "`===========================`\n"
+        "`==========================`\n"
         f"`𝓢𝓹𝓮𝓬𝓲𝓪𝓵 𝓔𝓭𝓲𝓽𝓲𝓸𝓷`\n"
         f"🧸 User            : {DEFAULTUSER}\n"
         f"🐍 Python          : {python_version()}\n"
         f"⚙️ Telethon        : {version.__version__}\n"
         f"💻 Running on      : {repo.active_branch.name}\n"
-        "`===========================`\n"
+        "`==========================\n"
     )
     if ALIVE_LOGO:
         try:
