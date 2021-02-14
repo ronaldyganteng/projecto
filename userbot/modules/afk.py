@@ -213,7 +213,7 @@ async def set_afk(afk_e):
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nDia Off Sebentar!")
     ISAFK = True
-    afk_time = datetime.now()
+    afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
 
 
