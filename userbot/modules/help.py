@@ -23,10 +23,10 @@ async def help(event):
     else:
         head = "Please specify which module do you want help for !!"
         head2 = f"Loaded Modules : {len(CMD_HELP)}"
-        head3 = "Usage: `.help` `<module name>`"
+        head3 = "Usage: `.info` `<module name>`"
         head4 = "List for all available command below: "
         string = ""
-        sep1 = "`••••••••••••••••••••••••••••••••••••••••••••••`"
+        sep1 = "`———————————————————————————————————————————————`"
         sep2 = "`=========================================`"
         for i in sorted(CMD_HELP):
             string += "`" + str(i)
