@@ -207,6 +207,8 @@ async def set_afk(afk_e):
     afk_start = start1.replace(microsecond=0)
     if string:
         AFKREASON = string
+        await asyncio.sleep(3)
+        await msg.delete()
         await afk_e.edit("**Dia Off Sebentar!**" f"\nReason: `{string}`")
     else:
         await afk_e.edit("**Dia Off Sebentar!**")
@@ -214,7 +216,6 @@ async def set_afk(afk_e):
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nDia Off Sebentar!")
     ISAFK = True
     afk_time = datetime.now()
-        await msg.delete()
     raise StopPropagation
 
 
