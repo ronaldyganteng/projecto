@@ -207,9 +207,9 @@ async def set_afk(afk_e):
     afk_start = start1.replace(microsecond=0)
     if string:
         AFKREASON = string
-        await afk_edit_delet("**Dia Off Sebentar!**" f"\nReason: `{string}`")
+        await edit_delete("**Dia Off Sebentar!**" f"\nReason: `{string}`")
     else:
-        await afk_edit_delet("**Dia Off Sebentar!**")
+        await edit_delete("**Dia Off Sebentar!**")
     if BOTLOG:
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nDia Off Sebentar!")
     ISAFK = True
