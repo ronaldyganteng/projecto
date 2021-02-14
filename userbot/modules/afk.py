@@ -214,7 +214,6 @@ async def set_afk(afk_e):
         await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\nDia Off Sebentar!")
     ISAFK = True
     afk_time = datetime.now()
-        await asyncio.sleep(3)
         await msg.delete()
     raise StopPropagation
 
