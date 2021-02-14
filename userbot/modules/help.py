@@ -11,9 +11,9 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.help(?: |$)(.*)")
-async def help(event):
-    """For .help command."""
+@register(outgoing=True, pattern=r"^\.info(?: |$)(.*)")
+async def info(event):
+    """For .info command."""
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
@@ -26,7 +26,7 @@ async def help(event):
         head3 = "Usage: `.info` `<module name>`"
         head4 = "List for all available command below: "
         string = ""
-        sep1 = "`———————————————————————————————————————————————`"
+        sep1 = "`=========================================`"
         sep2 = "`=========================================`"
         for i in sorted(CMD_HELP):
             string += "`" + str(i)
