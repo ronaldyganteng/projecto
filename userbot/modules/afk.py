@@ -276,10 +276,10 @@ async def type_afk_is_not_true(notafk):
 
 CMD_HELP.update(
     {
-        "afk": ">`.off [Optional Reason]`"
-        "\nUsage: Sets you as afk.\nReplies to anyone who tags/PM's "
-        "you telling them that you are AFK(reason)."
-        "\n\n>`.unoff`"
-        "\nUsage: Switches you off from AFK mode"
+        "afk": "> .off [Alasan Opsional]"
+        "\ nPenggunaan: Menetapkan Anda sebagai afk. \ nBalas kepada siapa saja yang menandai / PM"
+        "Anda memberi tahu mereka bahwa Anda AFK (alasan)."
+        "\ n \ n> .unoff"
+        "\ nPenggunaan: Mematikan Anda dari mode AFK"
     }
 )
