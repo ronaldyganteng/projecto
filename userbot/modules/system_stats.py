@@ -5,7 +5,6 @@
 #
 """ Userbot module for getting information about the server. """
 
-import time
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from os import remove
@@ -16,41 +15,13 @@ from git import Repo
 from telethon import version
 from telethon.errors.rpcerrorlist import MediaEmptyError
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, StartTime, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, bot
 from userbot.events import register
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 repo = Repo()
 # ============================================
-
-
-async def get_readable_time(seconds: int) -> str:
-    count = 0
-    up_time = ""
-    time_list = []
-    time_suffix_list = ["s", "m", "h", "days"]
-
-    while count < 4:
-        count += 1
-        if count < 3:
-            remainder, result = divmod(seconds, 60)
-        else:
-            remainder, result = divmod(seconds, 24)
-        if seconds == 0 and remainder == 0:
-            break
-        time_list.append(int(result))
-        seconds = int(remainder)
-
-    for x in range(len(time_list)):
-        time_list[x] = str(time_list[x]) + time_suffix_list[x]
-    if len(time_list) == 4:
-        up_time += time_list.pop() + ", "
-
-    time_list.reverse()
-    up_time += ":".join(time_list)
-
-    return up_time
 
 
 @register(outgoing=True, pattern=r"^\.sysd$")
@@ -160,15 +131,13 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^\.(alive|on)$")
 async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
-    uptime = await get_readable_time((time.time() - StartTime))
     logo = ALIVE_LOGO
     output = (
-        f"`NightCore` is running on `{repo.active_branch.name}`\n"
+        f"`WeebProject` is running on `{repo.active_branch.name}`\n"
         "`====================================`\n"
-        f"👤 User             : {DEFAULTUSER}\n\n"
-        f"🐍 Python           : {python_version()}\n\n"
-        f"💻 Telethon version : {version.__version__}\n\n"
-        f"🕒 Bot Uptime       : {uptime}\n"
+        f"🐍 `Python         :` v{python_version()}\n"
+        f"⚙️ `Telethon       :` v{version.__version__}\n"
+        f"👤 `User           :` {DEFAULTUSER}\n"
         "`====================================`\n"
     )
     if ALIVE_LOGO:
