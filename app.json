@@ -44,7 +44,7 @@
     },
     "UPSTREAM_REPO_URL": {
       "description": "In case you maintain a fork, add your repo URL here.",
-      "value": "https://github.com/ronaldyganteng/projecto",
+      "value": "https://github.com/ronaldyganteng/WeebProject",
       "required": false
     },
     "COUNTRY": {
