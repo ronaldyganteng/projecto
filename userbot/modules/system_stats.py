@@ -133,7 +133,7 @@ async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     logo = ALIVE_LOGO
     output = (
-        f"`WeebProject` is running on ....
+        f"`WeebProject` is running on
         "`====================================`\n"
         f"🧸 `User         :` {DEFAULTUSER}\n"
         f"🐍 `Python       :` v{python_version()}\n"
