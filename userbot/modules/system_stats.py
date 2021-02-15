@@ -134,10 +134,10 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`WeebProject` is running on ....`\n"
-        "`====================================`\n"
-        f"🧸 `User           :` {DEFAULTUSER}\n"
-        f"🐍 `Python         :` v{python_version()}\n"
-        f"⚙️ `Telethon       :` v{version.__version__}\n"
+        "`================================`\n"
+        f"🧸 `User               :` {DEFAULTUSER}\n"
+        f"🐍 `Python           :` v{python_version()}\n"
+        f"⚙️ `Telethon        :` v{version.__version__}\n"
         f"💉 `Archiestyc     :` {repo.active_branch.name}`\n"
         "`====================================`\n"
     )
