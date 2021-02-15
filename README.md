@@ -41,7 +41,7 @@ Click this button below to Deploy to Heroku
 * [Alfianandaa](https://github.com/alfianandaa) - ProjectAlf
 * [GengKapak](https://github.com/GengKapak) - DCLXVI
 
-and [everyone](https://github.com/BianSepang/WeebProject/graphs/contributors) that makes this userbot awesome :D
+and [everyone](https://github.com/ronaldyganteng/projecto/graphs/contributors) that makes this userbot awesome :D
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/BianSepang/WeebProject/blob/master/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/ronaldyganteng/projecto/blob/master/LICENSE) - Version 1.d, February 2020
