@@ -140,7 +140,6 @@ async def amireallyalive(alive):
         f"┣[ 🐍 `Python      :` {python_version()}\n"
         f"┣[ ⚙️ `Telethon    :` {version.__version__}\n"
         f"┣[ 💻 `Running on  :` {repo.active_branch.name}\n"
-        f"┣[ 👁‍🗨 `Username    :` @{user.username}\n
         f"┗━━━━━━━━━━━━━━━━━━━━━━━━\n"
     )
     if ALIVE_LOGO:
