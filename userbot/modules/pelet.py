@@ -4,7 +4,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.santet(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.pelet(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Telah Mengaktifkan Perintah Pelet Online ツ`")
