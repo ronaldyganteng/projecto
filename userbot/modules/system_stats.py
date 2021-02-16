@@ -139,7 +139,6 @@ async def amireallyalive(alive):
         f"🐍 `Python                   :` v{python_version()}\n"
         f"⚙️ `Telethon                :` v{version.__version__}\n"
         f"💉 `Archiestyc             :` {repo.active_branch.name}`\n"
-        f"🕐 `Archiztec Uptime         :` ** {str(time.now() - START_TIME).split('.')[0]} **\n\n"
         "`====================================`\n"
     )
     if ALIVE_LOGO:
