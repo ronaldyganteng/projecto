@@ -3,8 +3,8 @@ FROM biansepang/weebproject:groovy
 
 # Clone repo and prepare working directory
 RUN git clone -b master https://github.com/ronaldyganteng/projecto /home/weebproject/
-RUN mkdir /home/projecto/bin/
-WORKDIR /home/projecto/
+RUN mkdir /home/weebproject/bin/
+WORKDIR /home/weebproject/
 
 # Make open port TCP
 EXPOSE 80 443
