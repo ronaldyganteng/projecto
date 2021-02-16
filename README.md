@@ -1,11 +1,11 @@
 # WeebProject Userbot
 
 <p align="center">
-    <a href="https://app.codacy.com/gh/ronaldyganteng/WeebProject/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/ronaldyganteng/WeebProject/stargazers"> <img src="https://img.shields.io/github/stars/ronaldyganteng/WeebProject?logo=github&style=flat-square" alt="Stars" /></a>
-    <a href="https://github.com/ronaldyganteng/WeebProject/network/members"> <img src="https://img.shields.io/github/forks/ronaldyganteng/WeebProject?logo=github&style=flat-square" alt="Forks" /></a>
-    <a href="https://github.com/ronaldyganteng/WeebProject/watchers"> <img src="https://img.shields.io/github/watchers/ronaldyganteng/WeebProject?logo=github&style=flat-square" alt="Watch" /></a><br>
-    <a href="https://github.com/ronaldyganteng/WeebProject/graphs/contributors"> <img src="https://img.shields.io/github/contributors/ronaldyganteng/WeebProject?color=blue&style=flat-square" alt="Contributors" /></a>
+    <a href="https://app.codacy.com/gh/ronaldyganteng/projecto/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/ronaldyganteng/projecto/stargazers"> <img src="https://img.shields.io/github/stars/ronaldyganteng/projecto?logo=github&style=flat-square" alt="Stars" /></a>
+    <a href="https://github.com/ronaldyganteng/projecto/network/members"> <img src="https://img.shields.io/github/forks/ronaldyganteng/projecto?logo=github&style=flat-square" alt="Forks" /></a>
+    <a href="https://github.com/ronaldyganteng/projecto/watchers"> <img src="https://img.shields.io/github/watchers/ronaldyganteng/projecto?logo=github&style=flat-square" alt="Watch" /></a><br>
+    <a href="https://github.com/ronaldyganteng/projecto/graphs/contributors"> <img src="https://img.shields.io/github/contributors/ronaldyganteng/projecto?color=blue&style=flat-square" alt="Contributors" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=flat-square" /></a>
 </p>
 
@@ -31,7 +31,7 @@ based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
  
  ## Host
 Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ronaldyganteng/WeebProject/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ronaldyganteng/projecto/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 ## Credits
 * [Adek Maulana](https://github.com/adekmaulana) - ProjectBish
@@ -41,7 +41,7 @@ Click this button below to Deploy to Heroku
 * [Alfianandaa](https://github.com/alfianandaa) - ProjectAlf
 * [GengKapak](https://github.com/GengKapak) - DCLXVI
 
-and [everyone](https://github.com/ronaldyganteng/WeebProject/graphs/contributors) that makes this userbot awesome :D
+and [everyone](https://github.com/ronaldyganteng/projecto/graphs/contributors) that makes this userbot awesome :D
 
 ## License
-Licensed under [Raphielscape Public License](https://github.com/ronaldyganteng/WeebProject/blob/master/LICENSE) - Version 1.d, February 2020
+Licensed under [Raphielscape Public License](https://github.com/ronaldyganteng/projecto/blob/master/LICENSE) - Version 1.d, February 2020
