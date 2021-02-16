@@ -57,9 +57,9 @@ async def killthebot(event):
 
 @register(outgoing=True, pattern=r"^\.restart$")
 async def killdabot(event):
-    await event.edit("`*Sebentar Aku Me-Restart Diriku Dulu!*`")
+    await event.edit("`Sebentar Aku Me-Restart Diriku Dulu!`")
     if BOTLOG:
-        await event.client.send_message(BOTLOG_CHATID, "#RESTART \n" "Bot Restarted")
+        await event.client.send_message(BOTLOG_CHATID, "#RESTART \n" "Diriku Ke-Restart!")
     await bot.disconnect()
     # Spin a new instance of bot
     execl(sys.executable, sys.executable, *sys.argv)
