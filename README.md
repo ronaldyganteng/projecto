@@ -31,7 +31,7 @@ based on [ProjectBish](https://github.com/adekmaulana/ProjectBish) Userbot
  
  ## Host
 Click this button below to Deploy to Heroku
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ronaldyganteng/projecto/tree/Architz-BOT"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ronaldyganteng/projecto/tree/master"> <img src="https://www.herokucdn.com/deploy/button.png" alt="Deploy to Heroku"/></a></p>
 
 ## Credits
 * [Adek Maulana](https://github.com/adekmaulana) - ProjectBish
