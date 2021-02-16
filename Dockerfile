@@ -2,7 +2,7 @@
 FROM biansepang/weebproject:groovy
 
 # Clone repo and prepare working directory
-RUN git clone -b master https://github.com/ronaldyganteng/projecto /home/weebproject/
+RUN git clone -b master https://github.com/ronaldyganteng/projecto /home/archiztec/
 RUN mkdir /home/archiztec/bin/
 WORKDIR /home/archiztec/
 
