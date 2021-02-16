@@ -77,6 +77,22 @@ async def pingme(pong):
     await pong.edit("`Pong, Kecepatan Internet Kamu!\n%sms`" % (duration))
 
 
+@register(outgoing=True, pattern="^.sping$")
+async def pingme(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("**- PING -**")
+    await pong.edit("**-- PING —- **")
+    await pong.edit("**——- PING ——- **")
+    await pong.edit("**———- PING ——-- **")
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**~> PING!** "
+                    f"\n  ➥ `%sms` \n"
+                    f"**~> Kecepatan Internet Kamu!** "
+                    f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
+
 CMD_HELP.update(
     {
         "speed": ">`.speed`" "\nUsage: Does a speedtest and shows the results.",
