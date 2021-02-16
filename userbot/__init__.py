@@ -77,7 +77,7 @@ UPSTREAM_REPO_URL = os.environ.get(
     "https://github.com/ronaldyganteng/projecto.git")
 # UPSTREAM_REPO_URL branch, the default is master
 UPSTREAM_REPO_BRANCH = os.environ.get(
-    "UPSTREAM_REPO_BRANCH", "Architz-BOT")
+    "UPSTREAM_REPO_BRANCH", "master")
 
 # Console verbose logging
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
