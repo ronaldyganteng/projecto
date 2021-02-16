@@ -57,7 +57,7 @@ async def killthebot(event):
 
 @register(outgoing=True, pattern=r"^\.restart$")
 async def killdabot(event):
-    await event.edit("`*i would be back in a moment*`")
+    await event.edit("`*Sebentar Aku Me-Restart Diriku Dulu!*`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n" "Bot Restarted")
     await bot.disconnect()
@@ -98,7 +98,7 @@ async def repeat(rep):
 @register(outgoing=True, pattern=r"^\.repo$")
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
-    await wannasee.edit("Here is my [Repo](https://github.com/ronaldyganteng/projecto)")
+    await wannasee.edit("Here Is My Repository User-bot [Repo](https://github.com/ronaldyganteng/projecto)")
 
 
 @register(outgoing=True, pattern=r"^\.raw$")
