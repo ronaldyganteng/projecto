@@ -18,7 +18,7 @@ from userbot.events import register
 @register(outgoing=True, pattern=r"^\.speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Running speed test . . .`")
+    await spd.edit("`Kecepatan Internet Kamu Sedang Di Cek!!. . .`")
     test = Speedtest()
 
     test.get_best_server()
@@ -29,13 +29,13 @@ async def speedtst(spd):
 
     await spd.edit(
         "`"
-        "Started at "
+        "Started Sinyal Speedtest! "
         f"{result['timestamp']} \n\n"
-        "Download "
+        "Downloads "
         f"{speed_convert(result['download'])} \n"
-        "Upload "
+        "Uploads "
         f"{speed_convert(result['upload'])} \n"
-        "Ping "
+        "Pings "
         f"{result['ping']} \n"
         "ISP "
         f"{result['client']['isp']}"
@@ -71,10 +71,10 @@ async def neardc(event):
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
-    await pong.edit("`Pong, Kecepatan Internet Kamu!`")
+    await pong.edit("`Kecepatan Internet Kamu!`")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit("`Pong, Kecepatan Internet Kamu!\n%sms`" % (duration))
+    await pong.edit("`Kecepatan Internet Kamu!\n%sms`" % (duration))
 
 
 CMD_HELP.update(
